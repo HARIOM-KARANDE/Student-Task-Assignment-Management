@@ -1,0 +1,23 @@
+{
+  "name": "student-task-and-assignment-management-system",
+  "version": "1.0.0",
+  "description": "Student Task & Assignment Management System with FastAPI, PostgreSQL, and React (Vite)",
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "seed:py": "backend\\venv\\Scripts\\python backend\\seed.py",
+    "dev": "node scripts/start-dev.js",
+    "dev:backend": "backend\\venv\\Scripts\\python -m uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "fastapi",
+    "postgresql",
+    "react",
+    "vite",
+    "classroom",
+    "assignments"
+  ],
+  "author": "",
+  "license": "MIT"
+}
