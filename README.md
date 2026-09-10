@@ -99,7 +99,7 @@ CREATE DATABASE student_assignment_db;
 ```
 Configure your database credentials in `backend/.env`:
 ```env
-DATABASE_URL=postgresql://postgres:internhub@localhost:5432/student_assignment_db
+DATABASE_URL=postgresql://postgres:<YOUR_PASSWORD>@localhost:5432/<YOUR_DATABASE_NAME>
 ```
 
 ### 2. Install Dependencies
